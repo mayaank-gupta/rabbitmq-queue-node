@@ -6,7 +6,7 @@ amqp.connect(`amqp://localhost`, (err, channel) => {
     console.log("Error", err);
   }
 
-  connection.createChannel(function (error1, channel) {
+  channel.createChannel(function (error1, channel) {
     if (error1) {
       console.log("Error", error1);
       throw error1;
