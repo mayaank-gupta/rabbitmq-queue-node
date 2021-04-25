@@ -19,7 +19,7 @@ amqp.connect("amqp://localhost", (err, connection) => {
       durable: false
     });
 
-    connection.sendToQueue(queueName, Buffer.from(message));
+    channel.sendToQueue(queueName, Buffer.from(message));
     console.log(`Publisher: ${message}`);
   });
 
