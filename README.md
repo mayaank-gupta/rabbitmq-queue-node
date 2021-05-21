@@ -1,5 +1,5 @@
-# RabbitMQ_Test
+# Simple Queue in NodeJS
 
-Just a small pub-sub demo of RabbitMQ. 
+Its a small pub-sub pattern using rabbitmq.
 
 *RabbitMQ is install on EC2 instance.
